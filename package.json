@@ -1,0 +1,19 @@
+{
+  "name": "addcolors2gangcli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "node ./bin/cli.js -i \".test/735772_Barcoded.pdf\" -o \".test/735772_Barcoded_test.pdf\""
+  },
+  "bin": {
+    "addcolors2gangcli": "./bin/cli.js"
+  },
+  "author": "Chanan Ippel",
+  "license": "ISC",
+  "dependencies": {
+    "pdf-lib": "^1.17.1",
+    "pdf2json": "2.0.1",
+    "yargs": "^17.7.1"
+  }
+}
